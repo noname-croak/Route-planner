@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Route_planner</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GMap.NET.Core" Version="2.1.7" />
+    <PackageReference Include="GMap.NET.WinForms" Version="2.1.7" />
+    <PackageReference Include="Google.OrTools" Version="9.5.2237" />
+    <PackageReference Include="Google.OrTools.runtime.win-x64" Version="9.5.2237" />
+    <PackageReference Include="Itinero" Version="1.5.1" />
+    <PackageReference Include="Itinero.Geo" Version="1.5.1" />
+    <PackageReference Include="Itinero.IO.Osm" Version="1.5.1" />
+    <PackageReference Include="Itinero.IO.Shape" Version="1.5.1" />
+    <PackageReference Include="SharpKml.Core" Version="5.2.0" />
+  </ItemGroup>
+
+</Project>
